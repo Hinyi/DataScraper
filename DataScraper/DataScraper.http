@@ -1,0 +1,6 @@
+@DataScraper_HostAddress = http://localhost:5254
+
+GET {{DataScraper_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

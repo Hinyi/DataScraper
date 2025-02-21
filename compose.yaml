@@ -1,0 +1,6 @@
+﻿services:
+  datascraper:
+    image: datascraper
+    build:
+      context: .
+      dockerfile: DataScraper/Dockerfile
